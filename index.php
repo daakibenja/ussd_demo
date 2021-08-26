@@ -1,4 +1,5 @@
 <?php
+// A simple script to show how usssd's work
 // variables 
 $session_id = $_POST['sessionId'];
 $service_code = $_POST['serviceCode'];
@@ -30,4 +31,3 @@ else if($text == "1*2"){
 
 header('Content-Type: text/plain');
 echo $response;
-?>
